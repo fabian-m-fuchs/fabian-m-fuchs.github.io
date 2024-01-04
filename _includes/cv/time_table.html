@@ -3,12 +3,12 @@
       <li class="list-group-item">
         <div class="row">
           {% if content.year %}
-            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px; padding-left: 0%; padding-right: 0%;">
               <table class="table-cv">
                 <tbody>
                   <tr>
                     <td>
-                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">{{ content.year }}</span>
+                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px; white-space: pre-line;">{{ content.year }}</span>
                     </td>
                   </tr>
                   {% if content.location %}
@@ -20,7 +20,6 @@
                   {% endif %}
                 </tbody>
               </table>
-
             </div>
           {% endif %}
           <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
