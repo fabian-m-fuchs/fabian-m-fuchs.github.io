@@ -13,6 +13,7 @@
   contents:
     - title: Doctoral Studies
       institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
+      department: Center for Mathematical Economics (IMW)
       year: Dec 2022 - now
       description:
         - Viscosity Solution Theory
@@ -20,5 +21,42 @@
     - title: Master
       institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
       year: Apr 2021 - Oct 2022
-      description:
-        - Financial Mathematics
+      maindescription: Financial Mathematics
+    - title: Bachelor
+      institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
+      year: Oct 2017 - Apr 2021
+      maindescription: Financial Mathematics
+
+- title: Academic Positions
+  type: time_table
+  contents:
+    - title: Investigator in the <a href='https://www.sfb1283.uni-bielefeld.de/Pages/home'>CRC 1283</a>
+      institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
+      year: Dec 2022 - now
+      maindescription: Investigator in the CRC 1283 'Taming uncertainty and profiting from randomness and low regularity in analysis, stochastics and their applications' in Project C7 'Markovian dynamics under model uncertainty'
+    - title: Teaching Assistant
+      institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
+      department: Chair of Stochastics, Department of Mathematics
+      year: Apr 2022 - Aug 2022
+      maindescription: Probability Theory and Stochastic Processes
+    - title: Research Assistant
+      institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
+      department: Chair of Corporate Finance, Department of Economics
+      year: Apr 2021 - Mar 2022
+    - title: Research Assistant
+      institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
+      department: Chair of Numerical Optimization, Department of Mathematics
+      year: Apr 2021 - Oct 2021
+    - title: Research Assistant
+      institution: <a href='https://www.sfsu.edu/'>San Francisco State University</a>, San Francisco, CA, USA
+      department: Lam Family College of Business
+      year: Mar 2020 - May 2020
+
+- title: Coordination and Administrative Support
+  type: time_table
+  contents:
+    - title: IT Support of the Center for Mathematical Economics (IMW)
+      year: Nov 2023 - now
+    - title: Local Organization 11th General AMaMeF Conference
+      year: Jun 2023
+      maindescription: Support of organizers Giorgio Ferrari and Frank Riedel
