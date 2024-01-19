@@ -8,7 +8,7 @@ middle_name:
 last_name: Fuchs
 email: fabian.fuchs@uni-bielefeld.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  This is the personal website of Fabian Fuchs
+  This is the personal website of Fabian Fuchs.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -158,8 +158,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
