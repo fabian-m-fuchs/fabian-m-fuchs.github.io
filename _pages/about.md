@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: 20200221_PB_small.jpg
+  image: May_2024.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>UHG V10-133<br>
