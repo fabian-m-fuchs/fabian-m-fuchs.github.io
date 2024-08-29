@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://fabian-m-fuchs.github.io/sitemap.xml
+Sitemap: https://fabian-fuchs.com/sitemap.xml
