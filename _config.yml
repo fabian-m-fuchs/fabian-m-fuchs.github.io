@@ -17,7 +17,7 @@ keywords: Fabian Fuchs, Viscosity Theory, Bielefeld University, IMW, BiGSEM, Mat
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: Favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://fabian-m-fuchs.github.io # the base hostname & protocol for your site
+url: https://fabian-fuchs.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: /impressum/ # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
