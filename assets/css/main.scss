@@ -18,3 +18,8 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
+
+@font-face {
+  font-family: "EndlessFont";
+  src: url('#{$el-font-path}/EndlessFont.woff2') format('woff2');
+}
