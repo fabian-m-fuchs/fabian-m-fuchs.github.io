@@ -52,6 +52,14 @@
       department: Lam Family College of Business
       year: Mar 2020 - May 2020
 
+- title: Awards and Grants
+  type: time_table
+  contents:
+    - title: Best Course Award for <em>Tutorial Finance 2</em>
+      year: Jul 2024
+      institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
+      department: Faculty of Business Administration and Economics
+
 - title: Coordination and Administrative Support
   type: time_table
   contents:
