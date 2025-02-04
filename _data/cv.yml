@@ -3,10 +3,10 @@
   contents:
     - name: Full Name
       value: Fabian Fuchs
-    - name: Date of Birth
-      value: 29th June 1999
+    # - name: Date of Birth
+    #   value: 29th June 1999
     - name: Languages
-      value: English, German
+      value: English (fluent), German (fluent), Italian (basic)
 
 - title: Education
   type: time_table
@@ -17,12 +17,12 @@
       year: Dec 2022 - now
       description:
         - Viscosity Theory
-        - Semigroup Numerics
-    - title: Master
+        - Non-linear Semigroups
+    - title: Master of Science (M.Sc.)
       institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
       year: Apr 2021 - Oct 2022
       maindescription: Financial Mathematics
-    - title: Bachelor
+    - title: Bachelor of Science (B.Sc.)
       institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
       year: Oct 2017 - Apr 2021
       maindescription: Financial Mathematics
@@ -30,10 +30,10 @@
 - title: Academic Positions
   type: time_table
   contents:
-    - title: Investigator in the <a href='https://www.sfb1283.uni-bielefeld.de/Pages/home'>CRC 1283</a>
+    - title: Research Associate
       institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
+      department: <a href='https://www.uni-bielefeld.de/zwe/imw/'>Center for Mathematical Economics</a> (IMW)
       year: Dec 2022 - now
-      maindescription: Investigator in the CRC 1283 'Taming uncertainty and profiting from randomness and low regularity in analysis, stochastics and their applications' in Project C7 'Markovian dynamics under model uncertainty'
     - title: Teaching Assistant
       institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
       department: Chair of Stochastics, Department of Mathematics
@@ -52,21 +52,25 @@
       department: Lam Family College of Business
       year: Mar 2020 - May 2020
 
-- title: Awards and Grants
+- title: Awards, Grants, and Third Party Funding
   type: time_table
   contents:
     - title: Best Course Award for <em>Tutorial Finance 2</em>
       year: Jul 2024
       institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
       department: Faculty of Business Administration and Economics
+    - title: Investigator in <a href='https://www.sfb1283.uni-bielefeld.de/Pages/home'>Collaborative Research Center 1283</a>
+      institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
+      year: Dec 2022 - now
+      maindescription: Project C7 <em>Markovian dynamics under model uncertainty</em>
 
 - title: Coordination and Administrative Support
   type: time_table
   contents:
-    - title: IT Support of the Center for Mathematical Economics (IMW)
-      year: Nov 2023 - now
     - title: Organizer 19th BiGSEM Workshop
       year: Dec 2024
-    - title: Local Organization 11th General AMaMeF Conference
+    - title: IT Support of the Center for Mathematical Economics (IMW)
+      year: Nov 2023 - now
+    - title: Local Organization <a href='https://sites.google.com/view/amamef-2023/overview'>11th General AMaMeF Conference</a>
       year: Jun 2023
       maindescription: Support of organizers Giorgio Ferrari and Frank Riedel
