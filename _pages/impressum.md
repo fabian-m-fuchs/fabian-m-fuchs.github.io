@@ -5,7 +5,7 @@ title: Impressum
 nav: false
 ---
 __Fabian Fuchs__
-UHG V10-133<br>
+UHG B4-122<br>
 Universitätsstraße 25<br>
 33615 Bielefeld<br>
 Germany
