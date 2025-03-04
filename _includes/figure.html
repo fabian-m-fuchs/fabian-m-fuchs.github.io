@@ -26,6 +26,7 @@
       {% if include.title %}title="{{ include.title }}"{% endif %}
       {% if include.zoomable %}data-zoomable{% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+      {% if include.fast-load %}fetchpriority="high"{% endif %}
     />
   </picture>
 
