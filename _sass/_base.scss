@@ -477,7 +477,7 @@ footer.fixed-bottom {
   font-size: 0.75rem;
   text-align: center;
 
-  .container-md {
+  .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
@@ -1418,6 +1418,7 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
 // Endless Font
 .es-font{
   font-family: "EndlessFont";
