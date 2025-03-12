@@ -35,6 +35,9 @@ ninja.data = [{
           section: "News",},{id: "news-the-preprint-existence-of-viscosity-solutions-to-abstract-cauchy-problems-via-nonlinear-semigroups-with-max-nendel-is-online-now",
           title: 'The preprint Existence of Viscosity Solutions to Abstract Cauchy Problems via Nonlinear Semigroups...',
           description: "",
+          section: "News",},{id: "news-today-i-presented-my-work-on-a-comparison-principle-for-partial-integro-differential-operators-at-the-17th-german-probability-and-statistics-days-gpsd",
+          title: 'Today, I presented my work on a comparison principle for partial integro-differential operators...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
