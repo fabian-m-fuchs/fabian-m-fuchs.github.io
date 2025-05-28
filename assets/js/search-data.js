@@ -41,6 +41,9 @@ ninja.data = [{
           section: "News",},{id: "news-today-i-presented-my-work-on-a-comparison-principle-for-partial-integro-differential-operators-at-rufe-ii-hosted-by-the-university-of-johannesburg",
           title: 'Today, I presented my work on a comparison principle for partial integro-differential operators...',
           description: "",
+          section: "News",},{id: "news-today-i-presented-my-work-on-a-existence-result-for-viscosity-solutions-at-the-mathematics-of-uncertain-systems-for-economics-and-finance-conference-in-rimini",
+          title: 'Today, I presented my work on a existence result for viscosity solutions at...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
