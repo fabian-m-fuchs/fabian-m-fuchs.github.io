@@ -34,6 +34,10 @@
       institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
       department: <a href='https://www.uni-bielefeld.de/zwe/imw/'>Center for Mathematical Economics</a> (IMW)
       year: Dec 2022 - now
+    - title: Researcher - Global Skills Strategy Program
+      institution: <a href='https://uwaterloo.ca'>University of Waterloo</a>, Waterloo, ON, Canada
+      department: <a href='https://uwaterloo.ca/statistics-and-actuarial-science/'>Department of Statistics & Actuarial Science</a>
+      year: Jun 2025
     - title: Teaching Assistant
       institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
       department: Chair of Stochastics, Department of Mathematics
@@ -67,6 +71,8 @@
 - title: Coordination and Administrative Support
   type: time_table
   contents:
+    - title: Member of the organizing committee <a href='https://sites.google.com/view/mucef/home'>Mathematics of Uncertain Systems for Economics and Finance</a>
+      year: May 2025
     - title: Organizer 19th BiGSEM Workshop
       year: Dec 2024
     - title: IT Support of the Center for Mathematical Economics (IMW)
