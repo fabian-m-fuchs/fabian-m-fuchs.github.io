@@ -44,6 +44,9 @@ ninja.data = [{
           section: "News",},{id: "news-today-i-presented-my-work-on-a-existence-result-for-viscosity-solutions-at-the-mathematics-of-uncertain-systems-for-economics-and-finance-conference-in-rimini",
           title: 'Today, I presented my work on a existence result for viscosity solutions at...',
           description: "",
+          section: "News",},{id: "news-from-today-june-09-until-june-19-i-visit-the-department-of-statistics-amp-amp-actuarial-science-at-the-university-of-waterloo-as-a-researcher-as-part-of-the-global-skills-strategy-program",
+          title: 'From today, June 09 until June 19, I visit the Department of Statistics...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
