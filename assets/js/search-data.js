@@ -47,6 +47,9 @@ ninja.data = [{
           section: "News",},{id: "news-from-today-june-09-until-june-19-i-visit-the-department-of-statistics-amp-amp-actuarial-science-at-the-university-of-waterloo-as-a-researcher-as-part-of-the-global-skills-strategy-program",
           title: 'From today, June 09 until June 19, I visit the Department of Statistics...',
           description: "",
+          section: "News",},{id: "news-today-i-presented-my-works-on-a-comparison-principle-for-partial-integro-differential-operators-at-the-12th-general-amamef-conference-in-verona",
+          title: 'Today, I presented my works on a comparison principle for partial integro-differential operators...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
