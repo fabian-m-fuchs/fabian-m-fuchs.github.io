@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   This is the personal website of Fabian Fuchs.
 footer_text: >
  
-keywords: Fabian Fuchs, Viscosity Theory, Bielefeld University, IMW, BiGSEM, Mathematics, Mathematician, Economics, Economist, Functional Analysis  # add your own keywords or leave empty
+keywords: Fabian Fuchs, Viscosity Theory, Bielefeld University, IMW, BiGSEM, Mathematics, Mathematician, Economics, Economist, Functional Analysis, LUISS, Max Nendel, Frank Riedel, Fausto Gozzi  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: Favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -180,7 +180,7 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post

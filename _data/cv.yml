@@ -15,9 +15,12 @@
       institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
       department: Center for Mathematical Economics (IMW)
       year: Dec 2022 - now
-      description:
-        - Viscosity Theory
-        - Non-linear Semigroups
+      maindescription: >
+        Supervisors: <a href='https://uwaterloo.ca/statistics-and-actuarial-science/profiles/max-nendel'>Prof. Max Nendel</a> and <a href='https://wwwhomes.uni-bielefeld.de/friedel/english.html'>Prof. Frank Riedel</a><br>
+        Topics: viscosity theory and non-linear semigroups.
+      # description:
+      #   - Viscosity Theory
+      #   - Non-linear Semigroups
     - title: Master of Science (M.Sc.)
       institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
       year: Apr 2021 - Oct 2022
@@ -30,10 +33,14 @@
 - title: Academic Positions
   type: time_table
   contents:
+    - title: Postdoctoral Research Fellow
+      institution: <a href='https://www.luiss.it/'>Luiss Guido Carli</a>, Rome, Italy
+      department: Department of AI, Data and Decision Sciences
+      year: Sep 2025 - now
     - title: Research Associate
       institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
       department: <a href='https://www.uni-bielefeld.de/zwe/imw/'>Center for Mathematical Economics</a> (IMW)
-      year: Dec 2022 - now
+      year: Dec 2022 - Aug 2025
     - title: Researcher - Global Skills Strategy Program
       institution: <a href='https://uwaterloo.ca'>University of Waterloo</a>, Waterloo, ON, Canada
       department: <a href='https://uwaterloo.ca/statistics-and-actuarial-science/'>Department of Statistics & Actuarial Science</a>
@@ -59,24 +66,32 @@
 - title: Awards, Grants, and Third Party Funding
   type: time_table
   contents:
+    - title: >
+        Research grant <em>Impact of the Human Activities on the Environment and Economic/Financial Decision Making: Mathematical Models through Stochastic</em>
+      year: Sep 2025 - Mar 2028
+      institution: <a href='https://www.luiss.it/'>Luiss Guido Carli</a>, Rome, Italy
+      department: Department of AI, Data and Decision Sciences
+      maindescription: Scientific Director Prof. Fausto Gozzi
     - title: Best Course Award for <em>Tutorial Finance 2</em>
       year: Jul 2024
       institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
       department: Faculty of Business Administration and Economics
     - title: Investigator in <a href='https://www.sfb1283.uni-bielefeld.de/Pages/home'>Collaborative Research Center 1283</a>
       institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
-      year: Dec 2022 - now
+      year: Dec 2022 - Aug 2025
       maindescription: Project C7 <em>Markovian dynamics under model uncertainty</em>
 
 - title: Coordination and Administrative Support
   type: time_table
   contents:
+    - title: Member of the organizing committee <a href='https://isipta25.sipta.org/'>ISIPTA 2025</a>
+      year: Jul 2025
     - title: Member of the organizing committee <a href='https://sites.google.com/view/mucef/home'>Mathematics of Uncertain Systems for Economics and Finance</a>
       year: May 2025
     - title: Organizer 19th BiGSEM Workshop
       year: Dec 2024
     - title: IT Support of the Center for Mathematical Economics (IMW)
-      year: Nov 2023 - now
-    - title: Local Organization <a href='https://sites.google.com/view/amamef-2023/overview'>11th General AMaMeF Conference</a>
+      year: Nov 2023 - Aug 2025
+    - title: Member of the local organization committee <a href='https://sites.google.com/view/amamef-2023/overview'>11th General AMaMeF Conference</a>
       year: Jun 2023
-      maindescription: Support of organizers Giorgio Ferrari and Frank Riedel
+      # maindescription: Support of organizers Giorgio Ferrari and Frank Riedel
