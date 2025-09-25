@@ -9,9 +9,6 @@ profile:
   image: May_2024.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>UHG B4-122<br>
-    Universitätsstraße 25<br>
-    33615 Bielefeld, Germany</p>
 
 announcements:
   enabled: true # includes a list of news items
