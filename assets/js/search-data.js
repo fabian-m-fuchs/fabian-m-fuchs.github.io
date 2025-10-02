@@ -53,6 +53,9 @@ ninja.data = [{
           section: "News",},{id: "news-today-i-presented-an-existence-result-for-viscosity-solutions-at-isipta-2025-at-zif-in-bielefeld",
           title: 'Today, I presented an existence result for viscosity solutions at ISIPTA 2025 at...',
           description: "",
+          section: "News",},{id: "news-today-i-presented-at-the-workshop-mathematical-models-for-the-impact-of-human-activities-on-the-environment-and-economic-decision-making-at-luiss-in-rome",
+          title: 'Today, I presented at the workshop Mathematical Models for the Impact of Human...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
