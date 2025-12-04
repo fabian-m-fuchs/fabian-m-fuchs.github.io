@@ -56,6 +56,9 @@ ninja.data = [{
           section: "News",},{id: "news-today-i-presented-at-the-workshop-mathematical-models-for-the-impact-of-human-activities-on-the-environment-and-economic-decision-making-at-luiss-in-rome",
           title: 'Today, I presented at the workshop Mathematical Models for the Impact of Human...',
           description: "",
+          section: "News",},{id: "news-the-preprint-a-strict-comparison-principle-for-integro-differential-hamilton-jacobi-bellman-equations-on-domains-with-boundary-with-serena-della-corte-richard-kraaij-and-max-nendel-is-now-online",
+          title: 'The preprint A Strict Comparison Principle for Integro-Differential Hamilton-Jacobi-Bellman Equations on Domains with...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
