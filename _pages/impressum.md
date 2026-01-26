@@ -4,13 +4,12 @@ permalink: /impressum/
 title: Impressum
 nav: false
 ---
-__Fabian Fuchs__
-UHG B4-122<br>
-Universitätsstraße 25<br>
-33615 Bielefeld<br>
-Germany
+__Fabian Fuchs__<br>
+Viale Romania, 32<br> 
+00197 Roma RM<br>
+Italy
 
-__E-Mail:__ fabian.fuchs@uni-bielefeld.de<br>
+__E-Mail:__ ffuchs@luiss.it<br>
 __Tel.:__ +49 521 106-4917
 
 

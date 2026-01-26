@@ -28,3 +28,8 @@ $max-content-width: {{ site.max_width }};
   font-family: "EndlessFont";
   src: url('#{$el-font-path}/EndlessFont.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: "Adventor-Bold";
+  src: url('#{$adventor-font-path}/TeXGyreAdventor-Bold.woff2') format('woff2');
+}

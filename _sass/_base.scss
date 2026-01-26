@@ -1423,3 +1423,14 @@ figure.cover {
 .es-font{
   font-family: "EndlessFont";
 }
+
+//TeX Adventor
+.adventor-font-uppercase{
+  font-family: "Adventor-Bold";
+  text-transform: uppercase;
+  color: #ea000e;
+}
+
+.ctrl::selection{
+  background-color: #{$white-color};
+}
