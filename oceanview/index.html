@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <style>.mute-button{position:fixed;left:50%;top:0;z-index:100;transform:translate(-50%,0%)}.container{position:fixed;transform:translate(-50%,-50%);left:50%;top:50%;width:105%}.bg-img{z-index:-100;width:100%}.img-link{position:absolute;top:28%;left:42%;height:39%;width:18%;z-index:0;border-style:solid;border-color:#00f}@font-face{font-family:"Adventor-Bold";src:url('/assets/fonts/TeXGyreAdventor-Bold.woff2') format('woff2')}.adventor-font{font-family:"Adventor-Bold"}.hide{display:none}</style> <audio id="track1" src="/assets/ctrl/ctrl0.mp3"></audio> <audio id="bell_sound" src="/assets/ctrl/bell.mp3"></audio> </head> <body> <div class="container" id="hubEntry"> <img src="/assets/ctrl/ctrl1.jpg" class="bg-img" id="ctrl1"> <div id="transition-link" onclick="moveToMain();" style=" position: absolute; top: 28%; left: 42%; height: 39%; width: 18%; z-index: 0; "></div> <div id="transition-link-normal-page" style=" position: absolute; top: 51%; left: 24%; height: 12%; width: 4%; z-index: 0; "></div> </div> <div class="container hide" id="hubMain"> <img src="/assets/ctrl/ctrl2.jpg" class="bg-img" id="ctrl2"> <div id="transition-link-2" onclick="underConstruction();" style=" position: absolute; top: 30%; left: 30%; height: 39%; width: 15%; z-index: 0; "></div> <div id="bell" onclick="playBell();" style=" position: absolute; top: 57%; left: 61%; height: 6%; width: 4%; z-index: 0; "></div> <div id="transition-link-back" onclick="moveToEntry();" style=" position: absolute; top: 85%; left: 35%; height: 15%; width: 35%; z-index: 0; "></div> <div class="hide" id="under-construction" style=" position: absolute; top: 75%; left: 50%; z-index: 100; background-color: #fff; transform: translate(-50%, 0%); padding: 5px; "> <span class="adventor-font"> <span style="color: #ea000e;">THE SITE:</span>   &lt; This area is forbidden/not implemented yet. &gt; </span> </div> </div> <div class="mute-button"> <button data-playing="false" role="switch" aria-checked="false" id="mute-button"> <span>Play/Pause</span> </button> </div> <script>
+    // Create new Audio Context
+    const audioContext = new AudioContext();
+
+    // Get the audio element
+    const audioElement = document.querySelector("#track1");
+    // Pass it into the audio context
+    const track = audioContext.createMediaElementSource(audioElement);
+
+    // Create Bandpass Filter node
+    const bandpassFilter = audioContext.createBiquadFilter();
+    
+    bandpassFilter.type = "bandpass";
+    bandpassFilter.frequency.value = "260";
+    bandpassFilter.Q.value = "1.5";
+
+    // Make connections to the destination node
+    // track.connect(audioContext.destination);
+    track.connect(bandpassFilter);
+    bandpassFilter.connect(audioContext.destination);
+
+    // Select the mute button
+    const muteButton = document.querySelector("#mute-button");
+
+    muteButton.addEventListener("click", () => {
+    // Check if context is in suspended state (autoplay policy)
+    if (audioContext.state === "suspended") {
+        audioContext.resume();
+    }
+
+    // Play or pause track depending on state
+    if (muteButton.dataset.playing === "false") {
+        audioElement.play();
+        muteButton.dataset.playing = "true";
+    } else if (muteButton.dataset.playing === "true") {
+        audioElement.pause();
+        muteButton.dataset.playing = "false";
+    }
+    });
+
+    // Reset if track is done
+    audioElement.addEventListener("ended", () => {
+        playButton.dataset.playing = "false";
+    });
+
+
+
+
+
+    // Functionality in the Hub
+    function moveToMain() {
+        // Remove filter
+        track.connect(audioContext.destination);
+
+        // Hide first picture and links
+        // Show second picture and links
+        const containerEntry = document.querySelector("#hubEntry");
+        const containerHub = document.querySelector("#hubMain");
+
+        containerEntry.classList.toggle("hide");
+        containerHub.classList.toggle("hide");
+    }
+
+    function moveToEntry() {
+        // Add filter
+        track.disconnect();
+        bandpassFilter.disconnect();
+
+
+        track.connect(bandpassFilter);
+        bandpassFilter.connect(audioContext.destination);
+
+        // Hide second picture and links
+        // Show first picture und links
+        const containerEntry = document.querySelector("#hubEntry");
+        const containerHub = document.querySelector("#hubMain");
+
+        containerEntry.classList.toggle("hide");
+        containerHub.classList.toggle("hide");
+    }
+
+
+    let resetTimerId = null;
+    function underConstruction() {
+        const underConstruction = document.querySelector("#under-construction");
+
+        if (resetTimerId === null) {
+            underConstruction.classList.remove("hide");
+            resetTimerId = setTimeout(() => {
+            // If we didn't reach n in time, reset the attempt
+            underConstruction.classList.add("hide");
+            resetTimerId = null;
+            }, 3000);
+        }
+    }
+
+    function playBell() {
+        audioBell = document.querySelector("#bell_sound");
+        audioBell.play();
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Light Cord
+        let click_count = 0;
+        let resetTimerId2 = null;
+
+        function backHome() {
+            // Start the timer on the first click of an attempt
+            if (click_count === 0 && resetTimerId2 === null) {
+                resetTimerId2 = setTimeout(() => {
+                // If we didn't reach n in time, reset the attempt
+                click_count = 0;
+                resetTimerId2 = null;
+                }, 3000);
+            }
+
+            click_count++;
+
+            if (click_count >= 3) {
+                // Success within time: stop timer and swap behavior
+                clearTimeout(resetTimerId2);
+                resetTimerId2 = null;
+
+                // Back to Homepage
+                window.location.href="/";
+            }
+        }
+        const light_cord = document.querySelector("#transition-link-normal-page");
+        light_cord.addEventListener("click", backHome);
+    });
+</script> </body> </html>

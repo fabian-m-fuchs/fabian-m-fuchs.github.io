@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /assets/
+Disallow: /oceanview/
 
 Sitemap: https://fabian-fuchs.com/sitemap.xml
