@@ -1,3 +1,4 @@
+// Control font change on selection
 const classToReplace = document.querySelector(".ctrl");
 
 function updateFontOfSelection() {
@@ -16,4 +17,6 @@ function updateFontOfSelection() {
   classToReplace.classList.toggle("adventor-font-uppercase", overlaps);
 }
 
-document.addEventListener("selectionchange", updateFontOfSelection);
+if (classToReplace != null){
+  document.addEventListener("selectionchange", updateFontOfSelection);
+}
