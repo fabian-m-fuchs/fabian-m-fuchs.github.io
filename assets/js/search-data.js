@@ -59,6 +59,9 @@ ninja.data = [{
           section: "News",},{id: "news-the-preprint-a-strict-comparison-principle-for-integro-differential-hamilton-jacobi-bellman-equations-on-domains-with-boundary-with-serena-della-corte-richard-kraaij-and-max-nendel-is-now-online",
           title: 'The preprint A Strict Comparison Principle for Integro-Differential Hamilton-Jacobi-Bellman Equations on Domains with...',
           description: "",
+          section: "News",},{id: "news-today-my-first-paper-a-comparison-principle-based-on-couplings-of-partial-integro-differential-operators-with-serena-della-corte-richard-kraaij-and-max-nendel-has-been-published-in-journal-de-mathématiques-pures-et-appliquées",
+          title: 'Today, my first paper A comparison principle based on couplings of partial integro-differential...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
