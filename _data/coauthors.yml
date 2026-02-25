@@ -3,7 +3,11 @@
     url: https://sites.google.com/view/richardckraaij
 
 'corte':
-  - firstname: ['Serena Della', 'S. Della']
+  - firstname: ['Serena Della', 'S. Della', 'Serena']
+    url: https://sites.google.com/view/serenadellacorte
+
+'della corte':
+  - firstname: ['Serena']
     url: https://sites.google.com/view/serenadellacorte
 
 'nendel':
