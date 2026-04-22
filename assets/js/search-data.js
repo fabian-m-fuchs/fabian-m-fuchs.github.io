@@ -62,7 +62,12 @@ ninja.data = [{
           section: "News",},{id: "news-today-my-first-paper-a-comparison-principle-based-on-couplings-of-partial-integro-differential-operators-with-serena-della-corte-richard-kraaij-and-max-nendel-has-been-published-in-journal-de-mathématiques-pures-et-appliquées",
           title: 'Today, my first paper A comparison principle based on couplings of partial integro-differential...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-today-i-successfully-defended-my-thesis-titled-new-perspectives-on-existence-and-uniqueness-of-viscosity-solutions",
+          title: 'Today, I successfully defended my thesis titled New Perspectives on Existence and Uniqueness...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/20260417_defense/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
