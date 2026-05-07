@@ -67,7 +67,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/20260417_defense/";
-            },},{
+            },},{id: "news-the-preprint-projected-evolutionary-lifting-and-well-posedness-of-stationary-hamilton-jacobi-bellman-equations-in-infinite-dimensions-with-gabriele-bolli-is-now-online",
+          title: 'The preprint Projected Evolutionary Lifting and Well-Posedness of Stationary Hamilton-Jacobi-Bellman Equations in Infinite...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
