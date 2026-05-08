@@ -26,6 +26,6 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Postdoctoral Research Fellow at [Luiss Guido Carli](https://www.luiss.it/) with [Prof. Fausto Gozzi](https://docenti.luiss.it/gozzi/).
 
-Before, I was Doctoral Student at the [Center of Mathematical Economics](https://www.uni-bielefeld.de/zwe/imw/) at Bielefeld University under the supervision of [Prof. Max Nendel](https://uwaterloo.ca/statistics-and-actuarial-science/profiles/max-nendel) and [Prof. Frank Riedel](https://wwwhomes.uni-bielefeld.de/friedel/english.html).
+Before, I was a Doctoral Student at the [Center of Mathematical Economics](https://www.uni-bielefeld.de/zwe/imw/) at Bielefeld University under the supervision of [Prof. Max Nendel](https://uwaterloo.ca/statistics-and-actuarial-science/profiles/max-nendel) and [Prof. Frank Riedel](https://wwwhomes.uni-bielefeld.de/friedel/english.html).
 
 My research interests are in viscosity theory and non-linear semigroups in finite and infinite dimensions and their applications to optimal <span class="ctrl">control</span>.
