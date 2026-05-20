@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-other",
+          title: "other",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/other/";
+          },
         },{id: "news-today-i-presented-my-upcoming-work-a-comparison-principle-based-on-couplings-of-partial-integro-differential-operators-at-the-fdm-seminar-of-universität-freiburg",
           title: 'Today, I presented my upcoming work A comparison principle based on couplings of...',
           description: "",
@@ -70,7 +77,15 @@ ninja.data = [{
             },},{id: "news-the-preprint-projected-evolutionary-lifting-and-well-posedness-of-stationary-hamilton-jacobi-bellman-equations-in-infinite-dimensions-with-gabriele-bolli-is-now-online",
           title: 'The preprint Projected Evolutionary Lifting and Well-Posedness of Stationary Hamilton-Jacobi-Bellman Equations in Infinite...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-my-paper-existence-of-viscosity-solutions-to-abstract-cauchy-problems-via-nonlinear-semigroups-with-max-nendel-has-been-published-in-bulletin-of-the-london-mathematical-society",
+          title: 'My paper Existence of viscosity solutions to abstract Cauchy problems via nonlinear semigroups...',
+          description: "",
+          section: "News",},{id: "projects-beamer-varboxes",
+          title: 'beamer-varboxes',
+          description: "A LaTeX package",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/beamer-varbox/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
