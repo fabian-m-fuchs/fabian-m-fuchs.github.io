@@ -30,7 +30,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/other/";
           },
-        },{id: "news-today-i-presented-my-upcoming-work-a-comparison-principle-based-on-couplings-of-partial-integro-differential-operators-at-the-fdm-seminar-of-universität-freiburg",
+        },{id: "news-today-i-presented-comparison-for-hjb-equations-in-the-strict-topology-at-the-oberseminar-stochastik-of-universität-freiburg",
+          title: 'Today, I presented Comparison for HJB equations in the strict topology at the...',
+          description: "",
+          section: "News",},{id: "news-today-i-presented-my-upcoming-work-a-comparison-principle-based-on-couplings-of-partial-integro-differential-operators-at-the-fdm-seminar-of-universität-freiburg",
           title: 'Today, I presented my upcoming work A comparison principle based on couplings of...',
           description: "",
           section: "News",},{id: "news-the-preprint-a-comparison-principle-based-on-couplings-of-partial-integro-differential-operators-with-serena-della-corte-richard-kraaij-and-max-nendel-is-online-now",
