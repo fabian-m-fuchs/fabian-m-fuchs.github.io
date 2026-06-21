@@ -30,10 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/other/";
           },
-        },{id: "news-today-i-presented-comparison-for-hjb-equations-in-the-strict-topology-at-the-oberseminar-stochastik-of-universität-freiburg",
-          title: 'Today, I presented Comparison for HJB equations in the strict topology at the...',
-          description: "",
-          section: "News",},{id: "news-today-i-presented-my-upcoming-work-a-comparison-principle-based-on-couplings-of-partial-integro-differential-operators-at-the-fdm-seminar-of-universität-freiburg",
+        },{id: "news-today-i-presented-my-upcoming-work-a-comparison-principle-based-on-couplings-of-partial-integro-differential-operators-at-the-fdm-seminar-of-universität-freiburg",
           title: 'Today, I presented my upcoming work A comparison principle based on couplings of...',
           description: "",
           section: "News",},{id: "news-the-preprint-a-comparison-principle-based-on-couplings-of-partial-integro-differential-operators-with-serena-della-corte-richard-kraaij-and-max-nendel-is-online-now",
@@ -82,6 +79,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-my-paper-existence-of-viscosity-solutions-to-abstract-cauchy-problems-via-nonlinear-semigroups-with-max-nendel-has-been-published-in-bulletin-of-the-london-mathematical-society",
           title: 'My paper Existence of viscosity solutions to abstract Cauchy problems via nonlinear semigroups...',
+          description: "",
+          section: "News",},{id: "news-today-i-presented-comparison-for-hjb-equations-in-the-strict-topology-at-the-oberseminar-stochastik-of-universität-freiburg",
+          title: 'Today, I presented Comparison for HJB equations in the strict topology at the...',
           description: "",
           section: "News",},{id: "projects-beamer-varboxes",
           title: 'beamer-varboxes',
