@@ -8,28 +8,6 @@
     - name: Languages
       value: English (fluent), German (fluent), Italian (basic)
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Doctoral Studies
-      institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
-      department: Center for Mathematical Economics (IMW)
-      year: Dec 2022 - Apr 2026
-      maindescription: >
-        Supervisors: <a href='https://uwaterloo.ca/statistics-and-actuarial-science/profiles/max-nendel'>Prof. Max Nendel</a> and <a href='https://wwwhomes.uni-bielefeld.de/friedel/english.html'>Prof. Frank Riedel</a><br>
-        Topics: viscosity theory and non-linear semigroups.
-      # description:
-      #   - Viscosity Theory
-      #   - Non-linear Semigroups
-    - title: Master of Science (M.Sc.)
-      institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
-      year: Apr 2021 - Oct 2022
-      maindescription: Financial Mathematics
-    - title: Bachelor of Science (B.Sc.)
-      institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
-      year: Oct 2017 - Apr 2021
-      maindescription: Financial Mathematics
-
 - title: Academic Positions
   type: time_table
   contents:
@@ -62,6 +40,28 @@
       institution: <a href='https://www.sfsu.edu/'>San Francisco State University</a>, San Francisco, CA, USA
       department: Lam Family College of Business
       year: Mar 2020 - May 2020
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Doctoral Studies
+      institution: <a href='https://www.uni-bielefeld.de/'>Bielefeld University</a>, Bielefeld, Germany
+      department: Center for Mathematical Economics (IMW)
+      year: Dec 2022 - Apr 2026
+      maindescription: >
+        Supervisors: <a href='https://uwaterloo.ca/statistics-and-actuarial-science/profiles/max-nendel'>Prof. Max Nendel</a> and <a href='https://wwwhomes.uni-bielefeld.de/friedel/english.html'>Prof. Frank Riedel</a><br>
+        Topics: viscosity theory, non-linear semigroups.
+      # description:
+      #   - Viscosity Theory
+      #   - Non-linear Semigroups
+    - title: Master of Science (M.Sc.)
+      institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
+      year: Apr 2021 - Oct 2022
+      maindescription: Financial Mathematics
+    - title: Bachelor of Science (B.Sc.)
+      institution: <a href='https://www.uni-konstanz.de/en/'>University of Konstanz</a>, Constance, Germany
+      year: Oct 2017 - Apr 2021
+      maindescription: Financial Mathematics
 
 - title: Awards, Grants, and Third Party Funding
   type: time_table
