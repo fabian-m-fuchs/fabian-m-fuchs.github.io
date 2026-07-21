@@ -1424,6 +1424,13 @@ figure.cover {
   font-family: "EndlessFont";
 }
 
+.es-font-dynamic{
+  font-family: "EndlessFont";
+  &:hover{
+    font-family: sans-serif;
+  }
+}
+
 //TeX Adventor
 .adventor-font-uppercase{
   font-family: "Adventor-Bold";
@@ -1437,4 +1444,17 @@ figure.cover {
 
 .ctrl::selection{
   background-color: #{$white-color};
+}
+
+
+.font-showcase{
+    th,td{
+      font-size: 2rem;
+      padding: 1px 0.5rem 1px 0;
+      text-align: center;
+    }
+
+    th {
+      font-weight: bold;
+    }
 }

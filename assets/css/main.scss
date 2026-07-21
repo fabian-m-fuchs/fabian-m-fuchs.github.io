@@ -26,7 +26,7 @@ $max-content-width: {{ site.max_width }};
 
 @font-face {
   font-family: "EndlessFont";
-  src: url('#{$el-font-path}/EndlessFont.woff2') format('woff2');
+  src: url('#{$el-font-path}/EndlessFontv1_0.woff2') format('woff2');
 }
 
 @font-face {
