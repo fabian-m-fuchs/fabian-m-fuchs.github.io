@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-other",
           title: "other",
           description: "",
@@ -100,6 +107,11 @@ ninja.data = [{
           description: "A LaTeX package",
           section: "Projects",handler: () => {
               window.location.href = "/projects/beamer-varbox/";
+            },},{id: "teaching-quantitative-methods-for-management-2026-2027",
+          title: 'Quantitative Methods for Management 2026/2027',
+          description: "",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/qmm/";
             },},{
         id: 'social-email',
         title: 'email',
