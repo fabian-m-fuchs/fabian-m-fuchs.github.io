@@ -2,6 +2,7 @@
 layout: page
 title: Quantitative Methods for Management 2026/2027
 related_publications: false
+permalink: /qmm/
 ---
 
 ##### This page is dedicated to the course material for the second part of the course. For the first part, see [the web page of Michele Ricciardi](https://sites.google.com/view/michele-ricciardi/teaching/quantitative-methods-for-management-20262027).
