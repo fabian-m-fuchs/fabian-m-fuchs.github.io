@@ -111,7 +111,7 @@ ninja.data = [{
           title: 'Quantitative Methods for Management 2026/2027',
           description: "",
           section: "Teaching",handler: () => {
-              window.location.href = "/teaching/qmm/";
+              window.location.href = "/qmm/";
             },},{
         id: 'social-email',
         title: 'email',
