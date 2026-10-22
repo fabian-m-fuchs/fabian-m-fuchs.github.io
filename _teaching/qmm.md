@@ -16,4 +16,4 @@ The course is taught by **Prof. Fausto Gozzi** (see [here](https://paginapersona
 
 
 ### TA Materials
-**TA7:** Sensitivity and Parameter Analysis of LPs: <a href="{{ '/assets/teaching/QMM/TA7_assignment.pdf' | relative_url }}">TA7.pdf</a>
+**TA7:** Sensitivity and Parameter Analysis of LPs: <a href="{{ 'assets/teaching/QMM/TA7_assignment.pdf' | relative_url }}">TA7.pdf</a>
