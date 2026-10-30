@@ -16,6 +16,5 @@ The course is taught by **Prof. Fausto Gozzi** (see [here](https://paginapersona
 
 
 ### TA Materials
-**TA7:** Sensitivity and Parameter Analysis of LPs: <a href="{{ '/assets/teaching_materials/QMM/TA7_assignment.pdf' | relative_url }}">TA7.pdf</a> | <a href="{{ '/assets/teaching_materials/QMM/TA7_with_solution.pdf' | relative_url }}">TA7.pdf with Solutions</a>
-<br/>
-**TA8:** Change of Basis and Eigenvalues: <a href="{{ '/assets/teaching_materials/QMM/TA8_assignment.pdf' | relative_url }}">TA8.pdf</a>
+**TA7:** Sensitivity and Parameter Analysis of LPs: <a href="{{ '/assets/teaching_materials/QMM/TA7_assignment.pdf' | relative_url }}">TA7.pdf</a> | <a href="{{ '/assets/teaching_materials/QMM/TA7_with_solution.pdf' | relative_url }}">TA7.pdf with Solutions</a><br/>
+**TA8:** Change of Basis and Eigenvalues: <a href="{{ '/assets/teaching_materials/QMM/TA8_assignment.pdf' | relative_url }}">TA8.pdf</a> | <a href="{{ '/assets/teaching_materials/QMM/TA8_with_solution.pdf' | relative_url }}">TA8.pdf with Solutions</a>
